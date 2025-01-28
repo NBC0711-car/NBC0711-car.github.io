@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #007acc;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #005f99;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #e0f7fa;
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.stats .stat {
+    float: left;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e0f7fa;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.stats .stat .highlight {
+    font-size: 1.5em;
+    color: #007acc;
+}
+
+form {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007acc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #005f99;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007acc;
+    color: white;
+}
